@@ -1,0 +1,32 @@
+{
+    "name": "Maqueenavecmanette",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "maqueen": "github:dfrobot/pxt-maqueen#49038ca3fa131d1a7cbb77933b56208b4a002596",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.6.12",
+        "servo": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.3",
+        "tag": "v2.0.3",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/20acea2a251df78bdb42ba349f529382275fe1bf",
+        "target": "5.0.6",
+        "pxt": "5.15.10",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
